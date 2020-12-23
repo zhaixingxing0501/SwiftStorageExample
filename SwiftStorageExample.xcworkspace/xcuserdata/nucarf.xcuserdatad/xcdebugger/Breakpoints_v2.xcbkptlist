@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "70646F46-FDC6-4619-8E61-0CE9BFFC5FDD"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "730BF2E4-869D-4C59-825C-CDDB629D20B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftStorageExample/WKwebView&#x7684;&#x4f7f;&#x7528;/BaseWKWebViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "loadUserScript(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "730BF2E4-869D-4C59-825C-CDDB629D20B3 - 710cd58d9d5c8bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftStorageExample.BaseWKWebViewController.loadUserScript(with: Swift.String) -&gt; __C.WKUserScript"
+                  moduleName = "SwiftStorageExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nucarf/Desktop/iOS%20Project/SwiftStorageExample/SwiftStorageExample/WKwebView%E7%9A%84%E4%BD%BF%E7%94%A8/BaseWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "730BF2E4-869D-4C59-825C-CDDB629D20B3 - 710cd58d9d5c8bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftStorageExample.BaseWKWebViewController.loadUserScript(with: Swift.String) -&gt; __C.WKUserScript"
+                  moduleName = "SwiftStorageExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nucarf/Desktop/iOS%20Project/SwiftStorageExample/SwiftStorageExample/WKwebView%E7%9A%84%E4%BD%BF%E7%94%A8/BaseWKWebViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
