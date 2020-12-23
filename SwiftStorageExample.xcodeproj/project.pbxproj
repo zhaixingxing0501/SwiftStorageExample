@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F865BC5F0190B4E326EC441 /* Pods_SwiftStorageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9086E0E35F884C6AE550780 /* Pods_SwiftStorageExample.framework */; };
 		9CBE826F25931C330024F502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE826E25931C330024F502 /* AppDelegate.swift */; };
 		9CBE827125931C330024F502 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE827025931C330024F502 /* SceneDelegate.swift */; };
 		9CBE827325931C330024F502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE827225931C330024F502 /* ViewController.swift */; };
 		9CBE827625931C330024F502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE827425931C330024F502 /* Main.storyboard */; };
 		9CBE827825931C390024F502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE827725931C390024F502 /* Assets.xcassets */; };
 		9CBE827B25931C390024F502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE827925931C390024F502 /* LaunchScreen.storyboard */; };
+		9CBE828525931E000024F502 /* BaseWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE828425931E000024F502 /* BaseWKWebViewController.swift */; };
+		9CBE828C25931EFE0024F502 /* SwiftHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE828B25931EFE0024F502 /* SwiftHelper.swift */; };
+		9CBE829F259329020024F502 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE829E259329020024F502 /* index.html */; };
+		9CBE82A32593311A0024F502 /* 高阶函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE82A22593311A0024F502 /* 高阶函数.swift */; };
+		9CBE82A72593313D0024F502 /* SwiftLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE82A62593313D0024F502 /* SwiftLearnViewController.swift */; };
+		9CBE82B2259332180024F502 /* 闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE82AE259332170024F502 /* 闭包.swift */; };
+		9CBE82B3259332180024F502 /* 枚举.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE82AF259332180024F502 /* 枚举.swift */; };
+		9CBE82B4259332180024F502 /* 类对象_属性.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE82B0259332180024F502 /* 类对象_属性.swift */; };
+		9CBE82B5259332180024F502 /* 属性_结构体_单例.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE82B1259332180024F502 /* 属性_结构体_单例.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		279A387F6F3800C05FBA4922 /* Pods-SwiftStorageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStorageExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftStorageExample/Pods-SwiftStorageExample.release.xcconfig"; sourceTree = "<group>"; };
+		42054A6BA254918F8DFA6215 /* Pods-SwiftStorageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStorageExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftStorageExample/Pods-SwiftStorageExample.debug.xcconfig"; sourceTree = "<group>"; };
 		9CBE826B25931C330024F502 /* SwiftStorageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStorageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBE826E25931C330024F502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CBE827025931C330024F502 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,16 @@
 		9CBE827725931C390024F502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBE827A25931C390024F502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CBE827C25931C390024F502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBE828425931E000024F502 /* BaseWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWKWebViewController.swift; sourceTree = "<group>"; };
+		9CBE828B25931EFE0024F502 /* SwiftHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHelper.swift; sourceTree = "<group>"; };
+		9CBE829E259329020024F502 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9CBE82A22593311A0024F502 /* 高阶函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "高阶函数.swift"; sourceTree = "<group>"; };
+		9CBE82A62593313D0024F502 /* SwiftLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearnViewController.swift; sourceTree = "<group>"; };
+		9CBE82AE259332170024F502 /* 闭包.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "闭包.swift"; sourceTree = "<group>"; };
+		9CBE82AF259332180024F502 /* 枚举.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "枚举.swift"; sourceTree = "<group>"; };
+		9CBE82B0259332180024F502 /* 类对象_属性.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "类对象_属性.swift"; sourceTree = "<group>"; };
+		9CBE82B1259332180024F502 /* 属性_结构体_单例.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "属性_结构体_单例.swift"; sourceTree = "<group>"; };
+		E9086E0E35F884C6AE550780 /* Pods_SwiftStorageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStorageExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F865BC5F0190B4E326EC441 /* Pods_SwiftStorageExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38450EB773C8D5A086B4619D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9086E0E35F884C6AE550780 /* Pods_SwiftStorageExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CBE826225931C330024F502 = {
 			isa = PBXGroup;
 			children = (
 				9CBE826D25931C330024F502 /* SwiftStorageExample */,
 				9CBE826C25931C330024F502 /* Products */,
+				9E5E567B3923F3E286DF5F6F /* Pods */,
+				38450EB773C8D5A086B4619D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +92,54 @@
 				9CBE826E25931C330024F502 /* AppDelegate.swift */,
 				9CBE827025931C330024F502 /* SceneDelegate.swift */,
 				9CBE827225931C330024F502 /* ViewController.swift */,
+				9CBE82A52593311E0024F502 /* Swift学习 */,
+				9CBE828A25931EEF0024F502 /* Helper */,
+				9CBE828925931EB50024F502 /* WKwebView的使用 */,
 				9CBE827425931C330024F502 /* Main.storyboard */,
 				9CBE827725931C390024F502 /* Assets.xcassets */,
 				9CBE827925931C390024F502 /* LaunchScreen.storyboard */,
 				9CBE827C25931C390024F502 /* Info.plist */,
 			);
 			path = SwiftStorageExample;
+			sourceTree = "<group>";
+		};
+		9CBE828925931EB50024F502 /* WKwebView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE828425931E000024F502 /* BaseWKWebViewController.swift */,
+				9CBE829E259329020024F502 /* index.html */,
+			);
+			path = "WKwebView的使用";
+			sourceTree = "<group>";
+		};
+		9CBE828A25931EEF0024F502 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE828B25931EFE0024F502 /* SwiftHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9CBE82A52593311E0024F502 /* Swift学习 */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE82AE259332170024F502 /* 闭包.swift */,
+				9CBE82B0259332180024F502 /* 类对象_属性.swift */,
+				9CBE82AF259332180024F502 /* 枚举.swift */,
+				9CBE82B1259332180024F502 /* 属性_结构体_单例.swift */,
+				9CBE82A22593311A0024F502 /* 高阶函数.swift */,
+				9CBE82A62593313D0024F502 /* SwiftLearnViewController.swift */,
+			);
+			path = "Swift学习";
+			sourceTree = "<group>";
+		};
+		9E5E567B3923F3E286DF5F6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42054A6BA254918F8DFA6215 /* Pods-SwiftStorageExample.debug.xcconfig */,
+				279A387F6F3800C05FBA4922 /* Pods-SwiftStorageExample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBE827F25931C390024F502 /* Build configuration list for PBXNativeTarget "SwiftStorageExample" */;
 			buildPhases = (
+				90A4BC3A2B3657E92EF7AF4C /* [CP] Check Pods Manifest.lock */,
 				9CBE826725931C330024F502 /* Sources */,
 				9CBE826825931C330024F502 /* Frameworks */,
 				9CBE826925931C330024F502 /* Resources */,
+				1288CA83225BE50A7D963561 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBE829F259329020024F502 /* index.html in Resources */,
 				9CBE827B25931C390024F502 /* LaunchScreen.storyboard in Resources */,
 				9CBE827825931C390024F502 /* Assets.xcassets in Resources */,
 				9CBE827625931C330024F502 /* Main.storyboard in Resources */,
@@ -132,13 +210,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1288CA83225BE50A7D963561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftStorageExample/Pods-SwiftStorageExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftStorageExample/Pods-SwiftStorageExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftStorageExample/Pods-SwiftStorageExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A4BC3A2B3657E92EF7AF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftStorageExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CBE826725931C330024F502 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBE82A32593311A0024F502 /* 高阶函数.swift in Sources */,
+				9CBE828C25931EFE0024F502 /* SwiftHelper.swift in Sources */,
+				9CBE82B4259332180024F502 /* 类对象_属性.swift in Sources */,
+				9CBE82B3259332180024F502 /* 枚举.swift in Sources */,
 				9CBE827325931C330024F502 /* ViewController.swift in Sources */,
 				9CBE826F25931C330024F502 /* AppDelegate.swift in Sources */,
+				9CBE828525931E000024F502 /* BaseWKWebViewController.swift in Sources */,
+				9CBE82B2259332180024F502 /* 闭包.swift in Sources */,
+				9CBE82B5259332180024F502 /* 属性_结构体_单例.swift in Sources */,
+				9CBE82A72593313D0024F502 /* SwiftLearnViewController.swift in Sources */,
 				9CBE827125931C330024F502 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +411,12 @@
 		};
 		9CBE828025931C390024F502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42054A6BA254918F8DFA6215 /* Pods-SwiftStorageExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WW38662NQ;
 				INFOPLIST_FILE = SwiftStorageExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,10 +432,12 @@
 		};
 		9CBE828125931C390024F502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279A387F6F3800C05FBA4922 /* Pods-SwiftStorageExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WW38662NQ;
 				INFOPLIST_FILE = SwiftStorageExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
